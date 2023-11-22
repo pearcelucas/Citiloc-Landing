@@ -18,7 +18,7 @@ export const NavRodape = () => {
                 <p>Razão Social: Citiloc lorem ipsum</p>
                 <p>CNPJ: 123.456.0001/01</p>
             </Sobre>
-            <MenuRapido>
+            {/* <MenuRapido>
                 <TituloRodape>Menu Rápido</TituloRodape>
                 <Divisoria />
                 <Lista2>
@@ -38,7 +38,7 @@ export const NavRodape = () => {
                     </li>
 
                 </Lista2>
-            </MenuRapido>
+            </MenuRapido> */}
             <ContatosEndereco>
                 <TituloRodape>Contatos e endereço</TituloRodape>
                 <Divisoria />

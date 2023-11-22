@@ -239,15 +239,33 @@ export const ParceirosContainer = styled.div`
 
 
 export const Whatsapp = styled.img`
-    width: 100%;
+    width: 50%;
 `
 
+export const Orcamento = styled.h2`
+margin-top: 2%;
+    background-color: white;
+    color: green;
+    font-size: 1.5vw;;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
+    width: 70%;
+`
+  
+
 export const BotaoWhatsapp = styled(Link)`
-width: 5%;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+width: 10%;
 position: fixed;
 z-index: 3;
 bottom: 5%;
 right: 1%;
+text-decoration: none;
+
 
 @media screen and (max-width: 768px){
         width: 10%;
@@ -260,6 +278,7 @@ export const Rodape = styled.footer`
     width: 100%;
     background-color: black;
     display: flex;
+    justify-content: space-between;
     color: white;
     padding-bottom: 1%;
     margin-bottom: 0;
