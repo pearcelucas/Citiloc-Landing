@@ -246,7 +246,7 @@ export const Orcamento = styled.h2`
 margin-top: 2%;
     background-color: white;
     color: green;
-    font-size: 1.5vw;;
+    /* font-size: 1.5vw; */
     text-align: center;
     text-decoration: none;
     border-radius: 5px;
@@ -263,13 +263,15 @@ width: 10%;
 position: fixed;
 z-index: 3;
 bottom: 5%;
-right: 1%;
+right: 0;
 text-decoration: none;
+font-size: 1.5vw;
 
 
 @media screen and (max-width: 768px){
-        width: 10%;
-       
+        width: 20%;
+        font-size: 3vw;
+        right: 0;
     }
 
 `
