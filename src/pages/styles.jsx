@@ -116,7 +116,7 @@ margin: 0 auto;
 max-width: 80%;
 gap: 5%;
 justify-content: center;
-margin-top: 5%;
+flex-wrap: wrap;
 
 `
 
@@ -125,21 +125,61 @@ export const Card = styled.div`
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    width: 15%;
+    margin-top: 5%;
+    
+`
+
+
+
+
+export const ImgCircle = styled.img`
+    
+    box-shadow: 5px 5px 10px rgba(0,0,0,0.3);
+    width: 100%;
+    border-radius: 50%;
+    aspect-ratio: 1;
+    
+    
+    
+    `
+
+export const CardCircle = styled.div`
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    overflow: hidden;
+    box-shadow: 5px 5px 10px rgba(0,0,0,0.3);
+    width: 100%;
+    
+`
+
+export const CardNome = styled.h2`
+    margin: 5%;
+    font-size: 2vw;
+    color: white;
+`
+
+export const CardParceiro = styled.div`
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
     gap: 5%;
     background-color: #dfe2f5;
     width: 30%;
     border-radius: 15px;
-    padding: 2%;
+
     box-shadow: 5px 5px 10px rgba(0,0,0,0.3);
+
 `
 
 export const TituloCard = styled.h2`
     color: #004bae;
     font-size: 3vw;
     text-align: center;
-    height: 20%;
-    
-    
+ 
     
 `
 
@@ -150,7 +190,7 @@ export const ImagemCard = styled.img`
 `
 
 export const DescricaoCard = styled.p`
-    height: 30%;
+    
     font-size: 1.5vw;
     text-align: center;
     color: #004bae;

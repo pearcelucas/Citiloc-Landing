@@ -53,7 +53,7 @@ export const Menu = () =>{
         <>
          <Navegacao>
             <ImgLogo src={logo}/>
-            <Lista>
+            {/* <Lista>
                 <li>
                     <ItemLista to="/">Home</ItemLista>
                 </li>
@@ -69,7 +69,7 @@ export const Menu = () =>{
                     <ItemLista to="/contatos">Contatos</ItemLista>
                 </li>
                
-            </Lista>
+            </Lista> */}
         </Navegacao>
         </>
     )
