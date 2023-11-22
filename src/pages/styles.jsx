@@ -252,7 +252,7 @@ margin-top: 2%;
     border-radius: 5px;
     width: 70%;
 `
-  
+
 
 export const BotaoWhatsapp = styled(Link)`
 display: flex;
@@ -561,3 +561,67 @@ export const TextoDescricao = styled.p`
     `
 
 
+
+export const FormularioContainer = styled.div`
+    padding-top: 5%;
+    padding-bottom: 5%;
+    display: flex;
+    justify-content: center;
+    gap: 5%;
+    background-image: url(${BackgroungImg});
+    `
+
+export const CardFormulario = styled.div`
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 60%;
+    background-color: #dfe2f5;
+    border-radius: 15px;
+    box-shadow: 5px 5px 10px rgba(0,0,0,0.3);
+ 
+    `
+
+export const DivFormulário = styled.form`
+        
+        
+        
+        
+        `
+export const Campo = styled.div`
+    display: flex;
+    flex-direction: column;
+    padding-top: 5%;
+    padding-left: 5%; 
+    
+    
+    `
+    export const CampoPergunta = styled.label`
+        color: #004bae;
+        font-size: 2vw;
+        width: 100%;
+        vertical-align: top;
+        
+    `
+    export const CampoResposta = styled.input`
+        color: black;
+        font-size: 2vw;
+        width: 90%;
+        vertical-align: top;
+        
+    `
+    export const CampoTexto = styled.textarea`
+        font-size: 2vw;
+        width: 90%;
+       
+    `
+    export const BoataoEnvia = styled.button`
+        color: blue;
+        margin-bottom: 5%;
+        margin-right: 10%;
+        width: 20%;
+        align-self: self-end;
+        border-radius: 5px;
+        font-size: 2vw;
+        
+        `

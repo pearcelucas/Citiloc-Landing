@@ -42,13 +42,11 @@ export const NavRodape = () => {
             <ContatosEndereco>
                 <TituloRodape>Contatos e endereço</TituloRodape>
                 <Divisoria />
-                <Endereco>
-                    {/* <ImgRodape src={endereco} /> */}
-                    <p>Rua Lorem Ipsum, 1234</p>
-                </Endereco>
+                <EnderecoTexto>Rua Lorem Ipsum, 1234</EnderecoTexto>
                 <EnderecoTexto>Fortaleza/CE</EnderecoTexto>
                 <EnderecoTexto>Cep: 60123-456</EnderecoTexto>
                 <LinkRodape to="https://maps.app.goo.gl/xLcgvBs6z8nvh8y78">Ver no mapa</LinkRodape>
+
                 <Telefone>
                     <ImgRodape src={telefone} />
                     <p>(85) 9999-9999</p>

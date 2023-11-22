@@ -1,6 +1,6 @@
 
 import { Slide } from "../components/slider"
-import { Botao, Card, CardCircle, CardNome, CardParceiro, Cards, Container, DescricaoCard, DivBotao, ImagemCard, ImgCircle, ImgItem2, ParceirosContainer, Titulo, TituloCard} from "./styles"
+import { Card, CardNome, CardParceiro, Cards, Container, DescricaoCard, ImagemCard, ImgCircle, ParceirosContainer, Titulo} from "./styles"
 import fotoEstrtura from "../images/Estrutura/locacao-de-box-truss-em-ilha-comprida.jpg"
 import fotoCardSom from "../images/Som/som,.webp"
 import fotoCardLuz from "../images/movie.webp"
@@ -17,6 +17,7 @@ import fotoParceiro1 from "../images/Ceará_Sporting_Club_logo.svg.png"
 import fotoParceiro2 from "../images/Fortaleza_Esporte_Clube_logo.svg.png"
 import fotoParceiro3 from "../images/FERROVIÁRIO ATLÉTICO CLUBE.png"
 import fotoParceiro4 from "../images/Brasão_da_UECE.png"
+import { Formulario } from "../components/formulario"
 
 
 
@@ -91,6 +92,8 @@ export const Home = () => {
                     <DescricaoCard>Universidade Estadual do Ceará</DescricaoCard>
                 </CardParceiro>
             </ParceirosContainer>
+            <Titulo>Entre em contato:</Titulo>
+            <Formulario/>
             <Whats />
             <NavRodape />
         </Container>
