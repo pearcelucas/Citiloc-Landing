@@ -168,46 +168,33 @@ export const CardNome = styled.h2`
     color: white;
 `
 
-export const CardParceiro = styled.div`
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    gap: 5%;
-    background-color: #dfe2f5;
-    width: 30%;
-    border-radius: 15px;
-
-    box-shadow: 5px 5px 10px rgba(0,0,0,0.3);
-
-`
 
 export const TituloCard = styled.h2`
     color: #004bae;
     font-size: 3vw;
     text-align: center;
- 
     
-`
+    
+    `
 
 export const ImagemCard = styled.img`
     max-width: 100%;
     height: 50%;
     
-`
+    `
 
 export const DescricaoCard = styled.p`
     
     font-size: 1.5vw;
     text-align: center;
     color: #004bae;
-`
+    `
 
 export const DivBotao = styled.div`
 display: flex;
 justify-content: center;
 align-items: center;
-    
+
 `
 
 export const Botao = styled(Link)`
@@ -224,16 +211,16 @@ box-shadow: 5px 5px 10px rgba(0,0,0,0.3);
 font-size: 3vw;
 
 @media screen and (max-width: 768px){
-        width: 20vw;
-        height: 3vw;
-        font-size: 3vw;
-        padding: 2%;
-        
-    }
+    width: 20vw;
+    height: 3vw;
+    font-size: 3vw;
+    padding: 2%;
+    
+}
 `
 
 export const ParceirosContainer = styled.div`
-    padding-top: 5%;
+ 
     padding-left: 10%;
     padding-right: 10%;
     padding-bottom: 5%;
@@ -241,8 +228,29 @@ export const ParceirosContainer = styled.div`
     justify-content: space-between;
     gap: 5%;
     background-image: url(${BackgroungImg});
-`
+    flex-wrap: wrap;
+    `
 
+export const CardParceiro = styled.div`
+    margin-top: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 5%;
+    background-color: #dfe2f5;
+    width: 15%;
+    border-radius: 15px;
+    aspect-ratio: 1;
+
+    box-shadow: 5px 5px 10px rgba(0,0,0,0.3);
+
+
+@media screen and (max-width: 768px){
+    width: 25%;
+    
+}
+`
 
 
 export const Whatsapp = styled.img`

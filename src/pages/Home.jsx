@@ -17,6 +17,11 @@ import fotoParceiro1 from "../images/Ceará_Sporting_Club_logo.svg.png"
 import fotoParceiro2 from "../images/Fortaleza_Esporte_Clube_logo.svg.png"
 import fotoParceiro3 from "../images/FERROVIÁRIO ATLÉTICO CLUBE.png"
 import fotoParceiro4 from "../images/Brasão_da_UECE.png"
+import fotoParceiro5 from "../images/comunidadedasnacoes.png"
+import fotoParceiro6 from "../images/Sebrae.webp"
+import fotoParceiro7 from "../images/SENAC-1.jpg"
+import fotoParceiro8 from "../images/buteco.png"
+import fotoParceiro9 from "../images/Samba.png"
 import { Formulario } from "../components/formulario"
 
 
@@ -90,6 +95,26 @@ export const Home = () => {
                 <CardParceiro>
                     <ImagemCard src={fotoParceiro4} />
                     <DescricaoCard>Universidade Estadual do Ceará</DescricaoCard>
+                </CardParceiro>
+                <CardParceiro>
+                    <ImagemCard src={fotoParceiro5} />
+                    <DescricaoCard>Comunidade das Nações</DescricaoCard>
+                </CardParceiro>
+                <CardParceiro>
+                    <ImagemCard src={fotoParceiro6} />
+                    <DescricaoCard>Sebrae</DescricaoCard>
+                </CardParceiro>
+                <CardParceiro>
+                    <ImagemCard src={fotoParceiro7} />
+                    <DescricaoCard>Senac</DescricaoCard>
+                </CardParceiro>
+                <CardParceiro>
+                    <ImagemCard src={fotoParceiro8} />
+                    <DescricaoCard>Buteco Dona Maria</DescricaoCard>
+                </CardParceiro>
+                <CardParceiro>
+                    <ImagemCard src={fotoParceiro9} />
+                    <DescricaoCard>Samba do Vila</DescricaoCard>
                 </CardParceiro>
             </ParceirosContainer>
             <Titulo>Entre em contato:</Titulo>
