@@ -301,10 +301,16 @@ export const Sobre = styled.div`
     
 `
 
+
 export const Divisoria = styled.hr`
     width: 100%;
     margin-top: 3%;
     margin-bottom: 3%;
+`
+
+export const CNPJ = styled.p`
+    font-size: 1vw;
+    font-style: italic;
 `
 
 export const Lista2 = styled.ul`

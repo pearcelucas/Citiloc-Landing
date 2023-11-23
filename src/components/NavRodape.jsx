@@ -1,5 +1,5 @@
 
-import { ContatosEndereco, Divisoria, Email, Endereco, EnderecoTexto, ImgLogo, ImgRodape, ItemLista2, LinkRodape, Lista2, MenuRapido, Rodape, Sobre, Telefone, TituloRodape } from "../pages/styles"
+import { CNPJ, ContatosEndereco, DivContato, DivEndereco, Divisoria, Email, Endereco, EnderecoTexto, ImgLogo, ImgRodape, ItemLista2, LinkRodape, Lista2, MenuRapido, Rodape, Sobre, Telefone, TituloRodape } from "../pages/styles"
 import logo from "../images/Logo.png"
 import telefone from "../images/Icones/whatsapp-icon.png"
 import email from "../images/Icones/mail.png"
@@ -15,8 +15,8 @@ export const NavRodape = () => {
                     grades divisórias e painéis de led. Atendendo suas necessidades em eventos como festas, desfiles, feiras, stands para exposições,
                     congressos e muito mais.</p>
                 <Divisoria />
-                <p>Razão Social: Citiloc lorem ipsum</p>
-                <p>CNPJ: 123.456.0001/01</p>
+                <CNPJ>Razão Social: Citiloc Serviços e Estruturas LTDA</CNPJ>
+                <CNPJ>CNPJ: 52.199.046/0001-85</CNPJ>
             </Sobre>
             {/* <MenuRapido>
                 <TituloRodape>Menu Rápido</TituloRodape>
@@ -42,20 +42,25 @@ export const NavRodape = () => {
             <ContatosEndereco>
                 <TituloRodape>Contatos e endereço</TituloRodape>
                 <Divisoria />
-                <EnderecoTexto>Rua Lorem Ipsum, 1234</EnderecoTexto>
+               
+
+                <EnderecoTexto>Rua Frei Mansueto, 721</EnderecoTexto>
                 <EnderecoTexto>Fortaleza/CE</EnderecoTexto>
-                <EnderecoTexto>Cep: 60123-456</EnderecoTexto>
-                <LinkRodape to="https://maps.app.goo.gl/xLcgvBs6z8nvh8y78">Ver no mapa</LinkRodape>
+                <EnderecoTexto>Cep: 60175-157</EnderecoTexto>
+                <LinkRodape to="https://maps.app.goo.gl/oBkK9U128mmgySFQA">Ver no mapa</LinkRodape>
+            
+              
 
                 <Telefone>
                     <ImgRodape src={telefone} />
-                    <p>(85) 9999-9999</p>
+                    <p>(85) 9 8943-9495</p>
                 </Telefone>
                 <LinkRodape to="https://wa.me/5585989439495">abrir whatsapp</LinkRodape>
                 <Email>
                     <ImgRodape src={email} />
-                    <EnderecoTexto>citiloc@email.com.br</EnderecoTexto>
+                    <EnderecoTexto>claudia@citiloceventos.com.br</EnderecoTexto>
                 </Email>
+              
             </ContatosEndereco>
         </Rodape>
     )
