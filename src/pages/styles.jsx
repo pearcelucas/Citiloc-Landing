@@ -127,6 +127,12 @@ export const Card = styled.div`
     flex-direction: column;
     width: 15%;
     margin-top: 5%;
+
+    @media screen and (max-width: 768px){
+        width: 20%;
+        font-size: 3vw;
+        right: 0;
+    }
     
 `
 
@@ -157,6 +163,7 @@ export const CardCircle = styled.div`
 
 export const CardNome = styled.h2`
     margin: 5%;
+    margin-top: 10%;
     font-size: 2vw;
     color: white;
 `
