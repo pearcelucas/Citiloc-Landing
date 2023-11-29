@@ -1,6 +1,6 @@
 
 import { Slide } from "../components/slider"
-import { Card, CardNome, CardParceiro, Cards, Container, DescricaoCard, ImagemCard, ImgCircle, ParceirosContainer, Titulo} from "./styles"
+import { Card, CardNome, CardParceiro, Cards, Container, DescricaoCard, DivContato, ImagemCard, ImgCircle, ImgWhats, ParceirosContainer, TextoContato, TextoContato2, Titulo } from "./styles"
 import fotoEstrtura from "../images/Estrutura/locacao-de-box-truss-em-ilha-comprida.jpg"
 import fotoCardSom from "../images/Som/som,.webp"
 import fotoCardLuz from "../images/movie.webp"
@@ -23,6 +23,7 @@ import fotoParceiro7 from "../images/SENAC-1.jpg"
 import fotoParceiro8 from "../images/buteco.png"
 import fotoParceiro9 from "../images/Samba.png"
 import { Formulario } from "../components/formulario"
+import whats from "../images/whatsapp.png"
 
 
 
@@ -32,51 +33,57 @@ export const Home = () => {
             <Slide />
             <Titulo>As melhores soluções pro seu evento você encontra aqui!!!</Titulo>
             <Cards>
-                    <Card>
-                        <ImgCircle src={fotoCardSom}/>
-                        <CardNome>Sonorização</CardNome>
-                    </Card>
-                    <Card>
-                        <ImgCircle src={fotoCardLuz}/>
-                        <CardNome>Iluminação</CardNome>
-                    </Card>
-                    <Card>
-                        <ImgCircle src={fotoCardLED}/>
-                        <CardNome>LEDs</CardNome>
-                    </Card>
-                    
-                    <Card>
-                        <ImgCircle src={fotoCardGrade}/>
-                        <CardNome>Grades</CardNome>
-                    </Card>
-                    <Card>
-                       
+                <Card>
+                    <ImgCircle src={fotoCardSom} />
+                    <CardNome>Sonorização</CardNome>
+                </Card>
+                <Card>
+                    <ImgCircle src={fotoCardLuz} />
+                    <CardNome>Iluminação</CardNome>
+                </Card>
+                <Card>
+                    <ImgCircle src={fotoCardLED} />
+                    <CardNome>LEDs</CardNome>
+                </Card>
 
-                        <ImgCircle src={fotoCardUnifila}/>
-                       
-                        <CardNome>Unifilas</CardNome>
-                    </Card>
-                    <Card>
-                        <ImgCircle src={fotoEstrtura}/>
-                        <CardNome>Estrutura</CardNome>
-                    </Card>
-                    <Card>
-                        <ImgCircle src={fotoCardNotebook}/>
-                        <CardNome>Notebooks</CardNome>
-                    </Card>
-                    <Card>
-                        <ImgCircle src={fotoCardTV}/>
-                        <CardNome>TVs</CardNome>
-                    </Card>
-                    <Card>
-                        <ImgCircle src={fotoCardProjetor}/>
-                        <CardNome>Projetores</CardNome>
-                    </Card>
-                    <Card>
-                        <ImgCircle src={fotoCardTablet}/>
-                        <CardNome>Tablets</CardNome>
-                    </Card>
-                    
+                <Card>
+                    <ImgCircle src={fotoCardGrade} />
+                    <CardNome>Grades</CardNome>
+                </Card>
+                <Card>
+                    <ImgCircle src={fotoCardUnifila} />
+
+                    <CardNome>Unifilas</CardNome>
+                </Card>
+                <Card>
+                    <ImgCircle src={fotoEstrtura} />
+                    <CardNome>Estrutura</CardNome>
+                </Card>
+                <Card>
+                    <ImgCircle src={fotoCardNotebook} />
+                    <CardNome>Notebooks</CardNome>
+                </Card>
+                <Card>
+                    <ImgCircle src={fotoCardTV} />
+                    <CardNome>TVs</CardNome>
+                </Card>
+                <Card>
+                    <ImgCircle src={fotoCardProjetor} />
+                    <CardNome>Projetores</CardNome>
+                </Card>
+                <Card>
+                    <ImgCircle src={fotoCardTablet} />
+                    <CardNome>Tablets</CardNome>
+                </Card>
+            </Cards>
+            <Cards>
+                <DivContato to="https://wa.me/5585989439495">
+                    <ImgWhats src={whats}/>
+                    <TextoContato>
+                        <p>Entre em contato conosco pelo</p>
+                        <TextoContato2>WhatsApp!</TextoContato2>
+                    </TextoContato>
+                </DivContato>
             </Cards>
             <Titulo>Conheça nossos parceiros:</Titulo>
             <ParceirosContainer>
@@ -118,7 +125,7 @@ export const Home = () => {
                 </CardParceiro>
             </ParceirosContainer>
             <Titulo>Entre em contato:</Titulo>
-            <Formulario/>
+            <Formulario />
             <Whats />
             <NavRodape />
         </Container>

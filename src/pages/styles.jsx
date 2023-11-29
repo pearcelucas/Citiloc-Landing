@@ -25,8 +25,7 @@ export const Subtitulo = styled.h2`
     padding-left: 1%;
     padding-top: 0;
     margin-top: 0;
-    
-
+ 
 
 `
 
@@ -35,6 +34,7 @@ export const Navegacao = styled.nav`
     background-color: black;
     display: flex;
     justify-content: space-around;
+    
 
     @media screen and (max-width: 768px) {
         display: flex;
@@ -157,8 +157,7 @@ export const CardCircle = styled.div`
     border-radius: 50%;
     overflow: hidden;
     box-shadow: 5px 5px 10px rgba(0,0,0,0.3);
-    width: 100%;
-    
+    width: 100%;   
 `
 
 export const CardNome = styled.h2`
@@ -189,6 +188,36 @@ export const DescricaoCard = styled.p`
     text-align: center;
     color: #004bae;
     `
+
+export const DivContato = styled(Link)`
+    margin-top: 5%;
+    margin-bottom: 5%;
+    display: flex;
+    border: 2px solid red;
+    justify-content: center;
+    width: 45%;
+    background-color: #29a71a;
+    border-radius: 15px;
+`
+
+export const ImgWhats = styled.img`
+    width: 20%;
+`
+
+export const TextoContato = styled.p`
+    display: flex;
+    flex-direction: column;
+    color: white;
+    font-size: 2vw;
+    text-align: center;
+    justify-content: center;
+`
+
+export const TextoContato2 = styled.p`
+    color: white;
+    font-size: 2vw;
+    font-weight: bolder;
+`
 
 export const DivBotao = styled.div`
 display: flex;
