@@ -193,11 +193,12 @@ export const DivContato = styled(Link)`
     margin-top: 5%;
     margin-bottom: 5%;
     display: flex;
-    border: 2px solid red;
     justify-content: center;
     width: 45%;
     background-color: #29a71a;
+    border: 2px solid white;
     border-radius: 15px;
+    text-decoration: none;
 `
 
 export const ImgWhats = styled.img`
